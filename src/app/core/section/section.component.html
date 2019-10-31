@@ -1,0 +1,18 @@
+<div class="container-fluid  p-3 mb-2 bg-info text-dark">
+	<div class="list-group">
+		<div class="list-group-item list-group-item-action flex-column align-items-start">
+			<div class="row">
+				<div class="col">
+				  <input type="test" id="searchCourse" name="searchCourse" placeholder="Test to search">
+					<button type="submit" class="btn btn-primary">Search</button>
+				</div>
+				<div class="col col-lg-2">
+				 <button type="submit" class="btn btn-primary">Add Course</button>
+				</div>
+			</div>
+		</div>
+ 		<div class="list-group-item list-group-item-action flex-column align-items-start">
+		<app-course *ngFor="let item of courses" [item]="item"></app-course> </div>
+		<div class="list-group-item list-group-item-action flex-column ">Load course</div>
+	</div>
+</div>
