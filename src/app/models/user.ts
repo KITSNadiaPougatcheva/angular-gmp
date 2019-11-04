@@ -1,4 +1,3 @@
-'use strict';
 import { IUser } from './iuser';
 
 export class User implements IUser {

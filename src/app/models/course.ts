@@ -1,4 +1,3 @@
-'use strict';
 import { ICourse } from './icourse';
 
 export class Course implements ICourse {
